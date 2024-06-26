@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Cold Brew Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="media.css">
+
+    <!--Box-icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--Remix-icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page">
+        <!--Header-->
+        <header>
+            <a href="#" class="logo">
+                <img src="image/img_coffee.png">
+            </a>
+            <ul class="navlist" id="nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="contact.html">Contact</a> </li>
+            </ul>
+
+          
+            <div class="right-content">
+               
+                <a href="#" class="nav-btn">Sign In</a>
+               
+                <div class="bx bx-menu" id="menu-icon">
+               
+                </div>
+            </div>
+        </header>
+
+        <!--Hero section-->
+
+        <section class="hero">
+            <div class="hero-text">
+                <h5>#Coffee for hot day's</h5>
+                <h1>- Cold Brew</h1>
+                <p>Boots your productivity and your mood with a
+                    glass of coffee in the morning. Coffee has a stimulating
+                    effect.
+                </p>
+                <div class="main-hero">
+                    <a href="#" class="btn">Order Now</a>
+                    <a href="#" class="price">$17.00 /
+                        <span> Regular Price </span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="image/image.png">
+            </div>
+        </section>
+         <div class="icon">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+        
+                </div>
+
+
+        
+        <!--        <div>
+            <img src="MCREATIVE.png" width="50px" height="50px" style="border: 1 px solid transparent;border-radius: 50%;" >
+        </div>
+        -->
+
+         <!-- Footer section-->
+         
+         
+         <footer>
+         
+            <p class="para-footer"> &#169; CopyRight By Muskan Pathak... </p>
+        </footer>
+
+
+        <!--js link-->
+
+
+<script >
+    let menu = document.querySelector('#menu-icon');
+    let navlist = document.querySelector('.navlist');
+    menu.onclick = () =>{
+        menu.classList.toggle('bx-x');
+        navlist.classList.toggle('open');
+        
+
+    }
+
+
+</script>
+
+    </div>
+</body>
+
+</html>
